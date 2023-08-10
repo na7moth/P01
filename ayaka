@@ -1,0 +1,96 @@
+4+10;
+14
+1*3;
+3
+12*4;
+48
+4%2;
+0
+5%2;
+1
+5/1-99;
+-94
+5000*-100*(1+2)*(5*6);
+-45000000
+1241/9+99;
+236.88888888888889
+let age="24";
+undefined
+console.log(age);
+VM3525:1 24
+undefined
+let name="Ayaka";
+undefined
+console.log(name);
+VM3629:1 Ayaka
+undefined
+name="Ayaka"+"Nagata"
+'AyakaNagata'
+"ayaka"+7
+'ayaka7'
+7+"ayaka"
+'7ayaka'
+"hello world".length;
+11
+"hello world".length
+11
+"123".length;
+3
+"hello".toU
+undefined
+"hello"toUpperCase();
+VM3949:1 Uncaught SyntaxError: Unexpected identifier 'toUpperCase'
+"Hello".toLowerCase();
+'hello'
+const name="Ayaka";
+VM4059:1 Uncaught SyntaxError: Identifier 'name' has already been declared
+console.log(name);
+VM4115:1 AyakaNagata
+undefined
+console.log(age);
+VM4171:1 24
+undefined
+console.log(isProgrammer);
+VM4271:1 Uncaught ReferenceError: isProgrammer is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM4271:1
+Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factor'.
+DevTools failed to load source map: Could not load content for https://ogs.google.com/_/mss/boq-one-google/_/ss/k=boq-one-google.OneGoogleWidgetUi.o7eet_bs6Z4.L.B1.O/am=BgDMfQAQ/d=1/ed=1/rs=AM-SdHvEG-E7p5bIFBEmCnS-kPL12gOG8A/chrome.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+console.log
+ƒ log() { [native code] }
+let value =1;
+undefined
+console.log(value);
+VM4628:1 1
+undefined
+let value=2;
+undefined
+console.log(value);
+VM4731:1 2
+undefined
+let value=4;
+undefined
+console.log(value);
+VM4827:1 4
+undefined
+value=8
+8
+value=16
+16
+value=32
+32
+value=64
+64
+const firstName="Tomoko";
+undefined
+const lastName="Waffle";
+undefined
+const city="Tokyo";
+undefined
+console.log("Hello,my name is "+lastName+" "+firstName+". I live in "+city+".");
+VM5239:1 Hello,my name is Waffle Tomoko. I live in Tokyo.
+undefined
+console.log('Hello,my name is ${lastName+firstName}. I live in ${city}.');
+VM5399:1 Hello,my name is ${lastName+firstName}. I live in ${city}.
+undefined
+console.log(''Hello,my name is ${lastNamefirstName}. I live in ${city}.);
